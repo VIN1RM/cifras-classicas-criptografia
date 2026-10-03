@@ -1,15 +1,18 @@
-# Universidade Evangélica de Goiás
-# Engenharia de Software - Campus Anápolis
-# 8º Período - Turma A - Noturno
-# Disciplina: Segurança da Informação
-# Discente: Vinícius Siqueira
-# Discentes: 
-# - Geovanna Teresa Félix - 2313275
-# - Rafael França Martins - 2310947
-# - Samuel Elias Morais Pereira - 2310544
-# - Vinícius Rodrigues Martins - 2311066
+**Universidade Evangélica de Goiás**
 
-# Atividade Cifras Clássicas em Python
+- Curso: Engenharia de Software - Campus Anápolis
+- Período: 8º Período - Turma A - Noturno
+- Disciplina: Segurança da Informação
+- Docente: Vinícius Sarmento Costa Siqueira
+
+**Discentes:**
+
+- Geovanna Teresa Félix - 2313275
+- Rafael França Martins - 2310947
+- Samuel Elias Morais Pereira - 2310544
+- Vinícius Rodrigues Martins - 2311066
+
+# Atividade Cifras Clássicas
 
 Implementação autoral de quatro algoritmos históricos de criptografia, desenvolvida como atividade prática sobre os fundamentos da criptografia clássica.
 
@@ -30,7 +33,7 @@ Implementação autoral de quatro algoritmos históricos de criptografia, desenv
 Clone o repositório e rode o menu interativo:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/cifras-classicas.git
+git clone https://github.com/VIN1RM/cifras-classicas.git
 cd cifras-classicas
 python main.py
 ```
@@ -127,7 +130,3 @@ A . . . U . . . A . . . H . . . R
 Leitura por trilho: `AUAHR` + `TQEOMNEE` + `AAAC` = `AUAHRTQEOMNEEAAAC`
 
 Nesta implementação, espaços e pontuação também são embaralhados, de modo que o texto decifrado volta idêntico ao original.
-
-## Autor
-
-Nome do grupo / integrantes: _preencher_
