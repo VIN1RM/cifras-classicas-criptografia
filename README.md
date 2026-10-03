@@ -33,7 +33,7 @@ Implementação autoral de quatro algoritmos históricos de criptografia, desenv
 Clone o repositório e rode o menu interativo:
 
 ```bash
-git clone https://github.com/VIN1RM/cifras-classicas.git
+git clone https://github.com/VIN1RM/cifras-classicas-criptografia.git
 cd cifras-classicas
 python main.py
 ```
