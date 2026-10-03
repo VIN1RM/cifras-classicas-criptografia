@@ -40,7 +40,7 @@ def decriptografar(texto, chave):
 
 
 if __name__ == "__main__":
-    msg = "Rafael França Martins"
+    msg = "Vinícius Rodrigues Martins"
     chave = 3
     cifrado = criptografar(msg, chave)
     print("Cifrado:   ", cifrado)
