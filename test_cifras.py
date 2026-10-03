@@ -6,9 +6,10 @@ import monoalfabetica
 import transposicao
 
 TEXTOS = [
-    "Ataque ao amanhecer!",
-    "ATTACKATDAWN",
-    "ação, coração e pão 123",
+    "Samuel Elias Morais Pereira",
+    "Rafael França Martins",
+    "Geovanna Teresa Félix",
+    "Vinícius Rodrigues Martins",
     "a",
     "",
 ]
@@ -16,7 +17,7 @@ TEXTOS = [
 
 class TestCesar(unittest.TestCase):
     def test_valor_conhecido(self):
-        self.assertEqual(cesar.criptografar("Ataque ao amanhecer!", 3), "Dwdtxh dr dpdqkhfhu!")
+        self.assertEqual(cesar.criptografar("Samuel Elias Morais Pereira", 3), "Vdpxho Holdv Prudlv Shuhlud")
 
     def test_ida_e_volta(self):
         for texto in TEXTOS:
@@ -27,7 +28,7 @@ class TestCesar(unittest.TestCase):
 
 class TestVigenere(unittest.TestCase):
     def test_valor_conhecido(self):
-        self.assertEqual(vigenere.criptografar("ATTACKATDAWN", "LEMON"), "LXFOPVEFRNHR")
+        self.assertEqual(vigenere.criptografar("Geovanna Teresa Félix", "LEMON"), "Riajnyrm Hrcieo Séwmj")
 
     def test_ida_e_volta(self):
         for texto in TEXTOS:
@@ -45,7 +46,7 @@ class TestMonoalfabetica(unittest.TestCase):
     CHAVE = "QWERTYUIOPASDFGHJKLZXCVBNM"
 
     def test_valor_conhecido(self):
-        self.assertEqual(monoalfabetica.criptografar("Hello, World!", self.CHAVE), "Itssg, Vgksr!")
+        self.assertEqual(monoalfabetica.criptografar("Rafael França Martins", self.CHAVE), "Kqyqts Ykqfçq Dqkzofl")
 
     def test_ida_e_volta(self):
         chaves = [self.CHAVE] + [monoalfabetica.gerar_chave() for _ in range(5)]
@@ -67,7 +68,7 @@ class TestMonoalfabetica(unittest.TestCase):
 
 class TestRailFence(unittest.TestCase):
     def test_valor_conhecido(self):
-        self.assertEqual(transposicao.criptografar("ATAQUEAOAMANHECER", 3), "AUAHRTQEOMNEEAAAC")
+        self.assertEqual(transposicao.criptografar("Vinícius Rodrigues Martins", 3), "Vc reaniíisRdiusMrisnuog t")
 
     def test_ida_e_volta(self):
         for texto in TEXTOS:
