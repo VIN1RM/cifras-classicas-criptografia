@@ -34,7 +34,7 @@ Clone o repositório e rode o menu interativo:
 
 ```bash
 git clone https://github.com/VIN1RM/cifras-classicas-criptografia.git
-cd cifras-classicas
+cd cifras-classicas-criptografia
 python main.py
 ```
 
@@ -60,7 +60,7 @@ Os testes verificam, para cada cifra, um valor conhecido, a ida e volta (`decrip
 ## Estrutura do projeto
 
 ```
-cifras-classicas/
+cifras-classicas-criptografia/
 ├── cesar.py
 ├── vigenere.py
 ├── monoalfabetica.py
